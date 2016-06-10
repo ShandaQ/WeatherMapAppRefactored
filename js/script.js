@@ -182,6 +182,6 @@ app.controller("ForcastController", function($scope, $routeParams, $http){
   })
     .success(function(details){
       $scope.details = details.list;
-      console.log("city id " , $scope.details );
+      console.log("city id " , $scope.details);
     });
   });

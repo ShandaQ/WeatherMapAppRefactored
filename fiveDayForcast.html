@@ -1,3 +1,11 @@
 <div class="sidebar">
   <h1>Forcast Page</h1>
+  <div ng-repeat="timeStamp in details">
+    Date and Time:  {{timeStamp.dt_txt}}
+    <img id="sidebarIcon" ng-src="http://openweathermap.org/img/w/{{timeStamp.weather[0].icon}}.png">
+    Description: {{timeStamp.weather[0].description}}
+    Temp: {{timeStamp.main.temp}}
+    Temp Max: {{timeStamp.main.temp_max}}
+    Temp Min: {{timeStamp.main.temp_min}}
+  </div>
 </div>
