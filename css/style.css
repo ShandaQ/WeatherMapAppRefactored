@@ -1,0 +1,38 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.container{
+  overflow: auto;
+}
+#map {
+  height: 100%;
+  width: 65%;
+  position: absolute;
+  /*float: left;*/
+}
+
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  padding: 2%;
+  left: 65%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#sidebarIcon {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
