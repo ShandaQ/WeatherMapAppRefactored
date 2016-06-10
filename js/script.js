@@ -91,15 +91,17 @@ app.factory('googleMap', function(){
       //info window
       var infoContent =
       '<div class="infoContent">' +
-      '<h2>' + result.name + '</h2>' +
-      '<p>Current Temp: ' + result.main.temp + '°F</p>' +
-      '<p>High: ' + result.main.temp_max + '°F</p>' +
-      '<p>Low: ' + result.main.temp_min + '°F</p>' +
-      '<p>Pressure:' + result.main.pressure + 'hPa</p>' +
-      '<p>Humidity: ' + result.main.humidity + '%</p>' +
-      '<p>Wind: ' + result.wind.deg + '°</p>' +
-      '<p>Wind Gust: ' + result.wind.gust + '</p>' +
-      '<p>Wind Speed: ' + result.wind.speed + ' mph</p>' +
+        '<h2>' + result.name + '</h2>' +
+        '<p>Current Temp: ' + result.main.temp + '°F</p>' +
+        '<p>High: ' + result.main.temp_max + '°F</p>' +
+        '<p>Low: ' + result.main.temp_min + '°F</p>' +
+        '<p>Pressure:' + result.main.pressure + 'hPa</p>' +
+        '<p>Humidity: ' + result.main.humidity + '%</p>' +
+        '<p>Wind: ' + result.wind.deg + '°</p>' +
+        '<p>Wind Gust: ' + result.wind.gust + '</p>' +
+        '<p>Wind Speed: ' + result.wind.speed + ' mph</p>' +
+        '<p> Ctiy ID ' + result.id + '</p>' +
+        '<a href="#/' + result.id + '"> More Details  </a>' +
       '</div>';
       var infowindow = new google.maps.InfoWindow({
         content: infoContent
