@@ -5,8 +5,8 @@ Refactor Weather Map App using Angular Services and ngRoute(for single page appl
  - there is also a sidebar that list all the cites in my array, and its shows the weather marker icon, city name and and current temp.
  -detail page that gives you 5 day forecast for a particular city you select
 
-Link to site:
-[Weather Map](sqk-weatherMap.surge.sh)
+
+
 
 Screen Shots
 
